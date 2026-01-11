@@ -12,4 +12,4 @@ kubectl create deployment log-output --image=apopat/log-output
 Command used to deploy:  
 kubectl create deployment log-output --image=apopat/to-do-app
 
-[1.3](https://github.com/ArmanPopat/KubernetesSubmissions/tree/1.3/CourseProject)  
+[1.3](https://github.com/ArmanPopat/KubernetesSubmissions/tree/1.3/LogOutput)  
