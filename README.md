@@ -14,4 +14,4 @@ kubectl create deployment log-output --image=apopat/to-do-app
 
 [1.3](https://github.com/ArmanPopat/KubernetesSubmissions/tree/1.3/LogOutput)  
 
-[1.4](https://github.com/ArmanPopat/KubernetesSubmissions/tree/1.4/CourseProject) 
+[1.4](https://github.com/ArmanPopat/KubernetesSubmissions/tree/1.4/CourseProject/ToDoApp) 
