@@ -35,6 +35,11 @@ public class Program
         app.UseAuthorization();
         
         Console.WriteLine("Server started in port {0}",port);
+        
+        
+        app.UseDefaultFiles();   
+        app.UseStaticFiles();
+
 
         app.Run();
 

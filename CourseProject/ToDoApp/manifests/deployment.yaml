@@ -14,4 +14,7 @@ spec:
     spec:
       containers:
         - name: todoapp
-          image: apopat/to-do-app:1.4
+          image: apopat/to-do-app:1.5
+          env:
+            - name: PORT
+              value: "3000"

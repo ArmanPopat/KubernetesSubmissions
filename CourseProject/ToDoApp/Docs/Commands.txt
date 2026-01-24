@@ -1,0 +1,10 @@
+To create the docker image and push it to Docker Hub:
+Ensure you are in the solution root.
+
+docker build -f "./ToDoApp/Dockerfile" -t apopat/to-do-app:{VersionNumber} .
+docker push apopat/to-do-app:{VersionNumber}
+
+To update kubernetes deployment with the new image:
+update the image version in the deployment.yaml file. (A command may also exist to do this.)
+Then run:
+kubectl apply -f todoapp/manifests/deployment.yaml
