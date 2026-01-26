@@ -8,10 +8,13 @@ spec:
     matchLabels:
       app: logoutput
   template:
-    metadata:
+    metadata:                                                                 
       labels:
         app: logoutput
     spec:
       containers:
         - name: logoutput
-          image: apopat/log-output
+          image: apopat/log-output:1.7.1
+          env:
+            - name: PORT
+              value: "3000"
